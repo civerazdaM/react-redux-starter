@@ -19,10 +19,15 @@
     "test": "node scripts/test.js --env=jsdom"
   },
   "dependencies": {
+    "immutable": "^3.8.2",
     "object-assign": "4.1.1",
     "promise": "8.0.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-immutable": "^4.0.0",
+    "redux-saga": "^0.16.0",
     "whatwg-fetch": "2.0.3"
   },
   "devDependencies": {
